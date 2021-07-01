@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Music Genre Classification</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/static/style.css"/>
+	
+	
+</head>
+<body class="formbody">
+			<form action="/predict" method="POST" enctype="multipart/form-data">
+				<div class="title">MUSIC GENRE CLASSIFICATION</div>
+				<div class="upload">Upload Music File</div>
+				<div ><input class="file" type="file" placeholder="upload a music file"  name="audioFileData" required/></div>
+				<div ><input  class="button" type="submit" value="Check Genre"/></div>
+			</form>
+</body>
+</html>
+

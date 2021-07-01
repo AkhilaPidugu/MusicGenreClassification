@@ -1,0 +1,89 @@
+.formbody{
+background-image:url('../static/listening-to-music-headphones.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position:auto;
+}
+.predictbody{
+    background-image:url('../static/predict.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:auto;
+}
+.title {
+    padding: 20px;
+    font-family:'Times New Roman', Times;
+    color: 	#1c094e;
+    font-size: calc(10px + 5vmin);
+    text-shadow:2px 2px #e94242 ;
+  }
+ .upload{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family:'Times New Roman', Times;
+    color: 	#09271f;
+ }
+ .file{
+    background-color: #FF8C00;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+ .button{
+    background-color: #c95779;
+      border-radius: 5px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title {font-size: 20px;}
+    .upload{font-size: 15px;}
+    .file{font-size: 12px;}
+    .button{font-size: 12px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .title {font-size: 30px;}
+    .upload{font-size: 18px;}
+    .file{font-size: 12px;}
+    .button{font-size: 12px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .title {font-size: 50px;}
+    .upload{font-size: 25px;}
+    .file{font-size: 15px;}
+    .button{font-size: 15px;}
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .title {font-size: 50px;}
+    .upload{font-size: 30px;}
+    .file{font-size: 18px;}
+    .button{font-size: 18px;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .title {font-size: 50px;}
+    .upload{font-size: 40px;}
+    .file{font-size: 18px;}
+    .button{font-size: 18px;}
+  }
